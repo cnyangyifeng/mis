@@ -1,0 +1,9 @@
+{
+  "name": "mis",
+  "description": "17yanglao.com",
+  "homepage": "http://17yanglao.com",
+  "dependencies": {
+    "jquery": "^3.1.0"
+  },
+  "devDependencies": {}
+}
