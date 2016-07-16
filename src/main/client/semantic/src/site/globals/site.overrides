@@ -1,0 +1,8 @@
+/*******************************
+         Site Overrides
+*******************************/
+
+body {
+    -webkit-font-smoothing: @fontSmoothing;
+    -moz-osx-font-smoothing: @fontSmoothing;
+}

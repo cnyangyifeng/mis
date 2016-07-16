@@ -1,0 +1,170 @@
+/*******************************
+ Global CSS
+*******************************/
+
+/*-------------------
+ Page Header
+--------------------*/
+
+.page.header .ui.menu {
+    border-top: 2px solid #21BA45;
+    height: 44px;
+}
+
+/*-------------------
+ Page Content
+--------------------*/
+
+.page.content {
+    margin-top: 20px;
+}
+
+/*-------------------
+ Footer
+--------------------*/
+
+.footer {
+    margin-top: 80px;
+}
+
+.footer .ui.list > a.item {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+/*-------------------
+ Side Nav Menu
+--------------------*/
+
+.sidenav {
+    padding-right: 0 !important;
+}
+
+.sidenav > .ui.vertical.menu {
+    background: #FFFFFF;
+    border: 1px solid rgba(34, 36, 38, 0.15);
+    border-right: none;
+    min-height: 960px;
+}
+
+.sidenav > .ui.vertical.menu .header.item {
+    padding-left: 16px;
+    line-height: 24px;
+    font-size: 0.875em;
+}
+
+.sidenav > .ui.vertical.menu a.item {
+    padding-left: 32px;
+    line-height: 24px;
+}
+
+/*--------------
+ Workspace
+---------------*/
+
+.workspace {
+    padding-left: 0 !important;
+}
+
+.workspace > .content {
+    padding: 20px;
+    background: #FFFFFF;
+    border: 1px solid rgba(34, 36, 38, 0.15);
+    min-height: 960px;
+}
+
+/*------------------------
+ Action Bar
+-------------------------*/
+
+.actionbar input.search {
+    min-width: 240px;
+}
+
+/*------------------------
+ Hint
+-------------------------*/
+
+.hint {
+    border-bottom: none !important;
+    margin: 0 !important;
+    width: 100% !important;;
+}
+
+/*------------------------
+ Head Nav Steps
+-------------------------*/
+
+.ui.headnav.steps {
+    margin: 0;
+    width: 100% !important;
+    border-radius: 0;
+}
+
+/*------------------------
+ Info Segment
+-------------------------*/
+
+.ui.info.segment {
+    margin: 0;
+    width: 100% !important;;
+}
+
+/*--------------
+ Work Contol
+---------------*/
+
+.workcontrol {
+    margin: 0 !important;
+}
+
+/*--------------
+ Work Sheet
+---------------*/
+
+.worksheet {
+    padding: 0 !important;
+    border: 1px solid rgba(34, 36, 38, 0.15);
+    min-height: 720px;
+}
+
+.worksheet > .ui.table {
+    border: none;
+}
+
+.worksheet > .ui.table .ui.pagination.menu {
+    margin: 20px 0;
+}
+
+/*--------------
+ Filter
+---------------*/
+
+.filter {
+    padding: 0 !important;
+}
+
+.filter > .ui.vertical.menu {
+    border: 1px solid rgba(34, 36, 38, 0.15);
+    border-left: none;
+    min-height: 720px;
+}
+
+.filter > .ui.vertical.menu .level.two.item {
+    padding-left: 30px;
+}
+
+.filter > .ui.vertical.menu .level.three.item {
+    padding-left: 60px;
+}
+
+/*--------------
+ Price
+---------------*/
+
+.price {
+    color: #F2711C;
+}
+
+.big.price {
+    font-size: 24px;
+}

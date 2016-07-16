@@ -34,12 +34,64 @@ gulp.task('semantic watch', uiWatch);
 gulp.task('semantic build', uiBuild);
 
 /*--------------
+ Optimize
+ ---------------*/
+
+gulp.task('optimize', ['inject', 'sass-min'], function () {
+    log('Optimizing the js, css, html');
+
+    return gulp
+        .src(config.index)
+        .pipe($.plumber({errorHandler: swallowError}))
+        .pipe($.useref())
+        .pipe($.if('scripts/app.js', $.uglify()))
+        .pipe(gulp.dest(config.dist));
+
+});
+
+/*--------------
+ Copy
+ ---------------*/
+
+gulp.task('copy', function () {
+    log('Copying assets...');
+
+    return gulp
+        .src(config.assets, {base: config.src})
+        .pipe(gulp.dest(config.dist + '/'));
+});
+
+/*--------------
  Serve
  ---------------*/
 
 gulp.task('serve', function () {
     startBrowserSync();
 });
+
+/*--------------
+ Distribution
+ ---------------*/
+
+gulp.task('dist', function () {
+
+});
+
+/*--------------
+ Functions
+ ---------------*/
+
+function log(msg) {
+    if (typeof(msg) === 'object') {
+        for (var item in msg) {
+            if (msg.hasOwnProperty(item)) {
+                $.util.log($.util.colors.green(msg[item]));
+            }
+        }
+    } else {
+        $.util.log($.util.colors.green(msg));
+    }
+}
 
 function startBrowserSync() {
     if (browserSync.active) {

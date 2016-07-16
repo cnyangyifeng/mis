@@ -1,0 +1,16 @@
+/*******************************
+ Signup Page CSS
+*******************************/
+
+#signup .ui.grid {
+    padding-top: 60px;
+    height: 100%;
+}
+
+#signup .ui.grid > .column {
+    max-width: 360px;
+}
+
+#signup .ui.header {
+    margin-bottom: 60px;
+}

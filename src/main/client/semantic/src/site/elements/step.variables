@@ -1,0 +1,43 @@
+/*******************************
+    User Variable Overrides
+*******************************/
+
+/*-------------------
+ Element
+--------------------*/
+
+/* Title */
+
+@titleFontFamily: @headerFont;
+@titleFontWeight: normal;
+@titleFontSize: @relativeMedium;
+@titleColor: @darkTextColor;
+
+/*-------------------
+ States
+--------------------*/
+
+/* Completed */
+@completedColor: @positiveColor;
+
+/* Hover */
+@hoverBackground: @offWhite;
+@hoverColor: @hoveredTextColor;
+
+/* Down */
+@downBackground: @darkWhite;
+@downColor: @pressedTextColor;
+
+/* Active */
+@activeBackground: @darkWhite;
+// @activeColor: @linkColor;
+@activeColor: #8D8D8D;
+@activeIconColor: @darkTextColor;
+
+/* Active + Hover */
+@activeHoverBackground: @lightGrey;
+@activeHoverColor: @textColor;
+
+/* Disabled */
+@disabledBackground: @background;
+@disabledColor: @disabledTextColor;

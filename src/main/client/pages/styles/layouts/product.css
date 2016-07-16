@@ -1,0 +1,19 @@
+/*******************************
+ Product Page CSS
+*******************************/
+
+/*--------------
+ Screenshot Image
+---------------*/
+
+#product .ui.screenshot.image {
+    width: 100%;
+}
+
+#product .ui.screenshot.image > img {
+    width: 100%;
+}
+
+#product .ui.title.header {
+    margin-top: 10px;
+}

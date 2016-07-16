@@ -1,0 +1,69 @@
+/*******************************
+    User Variable Overrides
+*******************************/
+
+/*-------------------
+ Element
+--------------------*/
+
+@verticalMargin: 1em;
+@horizontalMargin: 0em;
+@margin: @verticalMargin @horizontalMargin;
+@borderCollapse: separate;
+@borderSpacing: 0px;
+@borderRadius: @defaultBorderRadius;
+@transition: background @defaultDuration @defaultEasing, color @defaultDuration @defaultEasing;
+@background: @white;
+@color: @textColor;
+@borderWidth: 1px;
+@border: @borderWidth solid @borderColor;
+@boxShadow: none;
+@textAlign: left;
+
+/*--------------
+ Parts
+---------------*/
+
+/* Table Row */
+
+@rowBorder: 1px solid @internalBorderColor;
+
+/* Table Cell */
+
+@cellVerticalPadding: @relativeMini;
+@cellHorizontalPadding: @relativeMini;
+@cellVerticalAlign: inherit;
+@cellTextAlign: inherit;
+@cellBorder: 1px solid @internalBorderColor;
+
+/* Table Header */
+
+@headerBorder: 1px solid @internalBorderColor;
+@headerDivider: none;
+// @headerBackground: @offWhite;
+@headerBackground: @darkWhite;
+@headerAlign: inherit;
+@headerVerticalAlign: inherit;
+@headerColor: @textColor;
+@headerVerticalPadding: @relativeSmall;
+@headerHorizontalPadding: @cellHorizontalPadding;
+@headerFontStyle: none;
+@headerFontWeight: normal;
+@headerTextTransform: none;
+@headerBoxShadow: none;
+
+/* Table Footer */
+
+@footerBoxShadow: none;
+@footerBorder: 1px solid @borderColor;
+@footerDivider: none;
+// @footerBackground: @offWhite;
+@footerBackground: @white;
+@footerAlign: inherit;
+@footerVerticalAlign: middle;
+@footerColor: @textColor;
+@footerVerticalPadding: @cellVerticalPadding;
+@footerHorizontalPadding: @cellHorizontalPadding;
+@footerFontStyle: normal;
+@footerFontWeight: normal;
+@footerTextTransform: none;
