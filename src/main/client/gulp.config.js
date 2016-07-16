@@ -1,13 +1,12 @@
 module.exports = function () {
-    var src = 'pages',
+    var src = 'app',
         dist = '../webapp';
 
     return {
         src: src,
         dist: dist,
         assets: [
-            src + "/**/*.html",
-            src + "/bower_components/weather-icons/fonts/*",
+            src + "/views/**/*.html",
             src + "/bower_components/jquery/dist/jquery.min.js",
             src + "/fonts/**/*",
             src + "/images/**/*",

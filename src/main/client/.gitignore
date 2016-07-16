@@ -1,7 +1,7 @@
 .idea/
 node_modules/
-pages/bower_components/
-pages/semantic/
+app/bower_components/
+app/semantic/
 
 .DS_Store
 npm-debug.log

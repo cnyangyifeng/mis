@@ -6,10 +6,10 @@
     "license": "ISC",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/cnyangyifeng/17yanglao-mis.git"
+        "url": "git+https://github.com/cnyangyifeng/mis.git"
     },
     "bugs": {
-        "url": "https://github.com/cnyangyifeng/17yanglao-mis/issues"
+        "url": "https://github.com/cnyangyifeng/17mis/issues"
     },
     "dependencies": {
         "semantic-ui": "^2.2.2"

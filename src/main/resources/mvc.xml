@@ -18,10 +18,6 @@
 
     <mvc:annotation-driven/>
 
-    <!-- Handles HTTP GET requests for /** by efficiently serving up static resources in the ${webappRoot}/resources directory -->
-
-    <mvc:resources mapping="/**" location="/dist/"/>
-
     <!-- ViewResolver -->
 
     <beans:bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
