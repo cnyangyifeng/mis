@@ -37,11 +37,11 @@ gulp.task('semantic build', uiBuild);
  Optimize
  ---------------*/
 
-gulp.task('optimize', ['inject', 'sass-min'], function () {
-    log('Optimizing the js, css, html');
+gulp.task('optimize', function () {
+    log('Optimizing js, css, html');
 
     return gulp
-        .src(config.index)
+        .src(config.html)
         .pipe($.plumber({errorHandler: swallowError}))
         .pipe($.useref())
         .pipe($.if('scripts/app.js', $.uglify()))

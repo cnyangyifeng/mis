@@ -10,7 +10,7 @@
 
     <!-- Base controller package -->
 
-    <context:component-scan base-package="com.cnmengma.modules" use-default-filters="false">
+    <context:component-scan base-package="com.cnmengma.webmvc" use-default-filters="false">
         <context:include-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
     </context:component-scan>
 
@@ -18,14 +18,25 @@
 
     <mvc:annotation-driven/>
 
-    <!-- ViewResolver -->
+    <!-- Handles static resources with DefaultServletHttpRequestHandler -->
 
-    <beans:bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-        <beans:property name="viewClass" value="org.springframework.web.servlet.view.JstlView"/>
-        <beans:property name="prefix" value="/WEB-INF/views/"/>
-        <beans:property name="suffix" value=".jsp"/>
+    <mvc:default-servlet-handler default-servlet-name="default"/>
+
+    <!-- FreeMarker configurations -->
+    <beans:bean id="freemarkerConfig" class="org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer">
+        <beans:property name="templateLoaderPath" value="templates"/>
     </beans:bean>
 
+    <!-- FreeMarker view resolver -->
+    <beans:bean id="viewResolver" class="org.springframework.web.servlet.view.freemarker.FreeMarkerViewResolver">
+        <beans:property name="cache" value="true"/>
+        <beans:property name="prefix" value=""/>
+        <beans:property name="suffix" value=".ftl"/>
+        <beans:property name="contentType" value="text/html;charset=UTF-8"/>
+        <beans:property name="exposeSpringMacroHelpers" value="true"/>
+        <beans:property name="exposeRequestAttributes" value="true"/>
+        <beans:property name="exposeSessionAttributes" value="true"/>
+    </beans:bean>
 
     <!-- Message externalization and internationalization -->
 
