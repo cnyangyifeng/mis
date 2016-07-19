@@ -16,7 +16,8 @@
     <div class="header item">设置</div>
     <a class="${(active=='options')?then('active item','item')}" href="<@spring.url "/options"/>"><i class="options icon"></i> 基本配置</a>
     <a class="${(active=='users')?then('active item','item')}" href="<@spring.url "/users"/>"><i class="user icon"></i> 用户管理</a>
-    <a class="${(active=='privileges')?then('active item','item')}" href="<@spring.url "/privileges"/>"><i class="sitemap icon"></i> 权限管理</a>
+    <a class="${(active=='roles')?then('active item','item')}" href="<@spring.url "/roles"/>"><i class="sitemap icon"></i> 角色管理</a>
+    <a class="${(active=='privileges')?then('active item','item')}" href="<@spring.url "/privileges"/>"><i class="privacy icon"></i> 权限管理</a>
     <a class="${(active=='logs')?then('active item','item')}" href="<@spring.url "/logs"/>"><i class="history icon"></i> 操作记录</a>
 </div>
 </#macro>

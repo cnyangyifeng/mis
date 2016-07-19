@@ -20,11 +20,11 @@
                             <div class="ui button">下载表格</div>
                         </div>
                         <div class="item">
-                            <div class="ui icon button"><i class="trash outline icon"></i></div>
+                            <div class="ui icon button">删除</div>
                         </div>
                         <div class="right item">
                             <div class="ui action input">
-                                <input class="search" type="text" placeholder="姓名、房间 / 床位、护理员">
+                                <input class="search" type="text" placeholder="姓名、床位、护理员">
                                 <div class="ui secondary primary button">搜索</div>
                             </div>
                         </div>
@@ -42,14 +42,13 @@
                                 <thead>
                                 <tr>
                                     <th>
-                                        <div class="ui fitted checkbox">
+                                        <div class="ui checkbox collapsing">
                                             <input type="checkbox">
-                                            <label></label>
+                                            <label>姓名</label>
                                         </div>
                                     </th>
-                                    <th>姓名</th>
                                     <th class="center aligned">性别</th>
-                                    <th>房间 / 床位</th>
+                                    <th>床位</th>
                                     <th>护理员</th>
                                     <th>护理级别</th>
                                     <th class="center aligned">操作</th>
@@ -58,12 +57,11 @@
                                 <tbody>
                                 <tr>
                                     <td>
-                                        <div class="ui fitted checkbox">
+                                        <div class="ui checkbox collapsing">
                                             <input type="checkbox">
-                                            <label></label>
+                                            <label>张三</label>
                                         </div>
                                     </td>
-                                    <td>张三</td>
                                     <td class="center aligned">男</td>
                                     <td>1号楼1单元101室1号床</td>
                                     <td>杨义锋</td>
@@ -74,12 +72,11 @@
                                 </tr>
                                 <tr>
                                     <td>
-                                        <div class="ui fitted checkbox">
+                                        <div class="ui checkbox collapsing">
                                             <input type="checkbox"/>
-                                            <label></label>
+                                            <label>李四</label>
                                         </div>
                                     </td>
-                                    <td>李四</td>
                                     <td class="center aligned">女</td>
                                     <td>1号楼1单元101室2号床</td>
                                     <td>李小英</td>
@@ -90,12 +87,11 @@
                                 </tr>
                                 <tr>
                                     <td>
-                                        <div class="ui fitted checkbox">
+                                        <div class="ui checkbox collapsing">
                                             <input type="checkbox">
-                                            <label></label>
+                                            <label>王五</label>
                                         </div>
                                     </td>
-                                    <td>王五</td>
                                     <td class="center aligned">男</td>
                                     <td>1号楼1单元102室</td>
                                     <td>杨义锋</td>
@@ -106,12 +102,11 @@
                                 </tr>
                                 <tr>
                                     <td>
-                                        <div class="ui fitted checkbox">
+                                        <div class="ui checkbox collapsing">
                                             <input type="checkbox">
-                                            <label></label>
+                                            <label>赵六</label>
                                         </div>
                                     </td>
-                                    <td>赵六</td>
                                     <td class="center aligned">男</td>
                                     <td>1号楼1单元201室</td>
                                     <td>杨义锋</td>
@@ -122,12 +117,11 @@
                                 </tr>
                                 <tr>
                                     <td>
-                                        <div class="ui fitted checkbox">
+                                        <div class="ui checkbox collapsing">
                                             <input type="checkbox">
-                                            <label></label>
+                                            <label>钱七</label>
                                         </div>
                                     </td>
-                                    <td>钱七</td>
                                     <td class="center aligned">女</td>
                                     <td>1号楼1单元202室</td>
                                     <td>李小英</td>
@@ -138,12 +132,11 @@
                                 </tr>
                                 <tr>
                                     <td>
-                                        <div class="ui fitted checkbox">
+                                        <div class="ui checkbox collapsing">
                                             <input type="checkbox">
-                                            <label></label>
+                                            <label>孙八</label>
                                         </div>
                                     </td>
-                                    <td>孙八</td>
                                     <td class="center aligned">女</td>
                                     <td>1号楼2单元101室1号床</td>
                                     <td>李小英</td>
@@ -154,12 +147,11 @@
                                 </tr>
                                 <tr>
                                     <td>
-                                        <div class="ui fitted checkbox">
+                                        <div class="ui checkbox collapsing">
                                             <input type="checkbox">
-                                            <label></label>
+                                            <label>杨九</label>
                                         </div>
                                     </td>
-                                    <td>杨九</td>
                                     <td class="center aligned">男</td>
                                     <td>1号楼2单元101室2号床</td>
                                     <td>杨义锋</td>
@@ -170,12 +162,11 @@
                                 </tr>
                                 <tr>
                                     <td>
-                                        <div class="ui fitted checkbox">
+                                        <div class="ui checkbox collapsing">
                                             <input type="checkbox">
-                                            <label></label>
+                                            <label>吴十</label>
                                         </div>
                                     </td>
-                                    <td>吴十</td>
                                     <td class="center aligned">男</td>
                                     <td>1号楼2单元102室</td>
                                     <td>杨义锋</td>

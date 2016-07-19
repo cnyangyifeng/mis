@@ -5,9 +5,8 @@ module.exports = function () {
     return {
         src: src,
         dist: dist,
-        html: src + "/views/**/*.html",
+        html: src + "/**/*.html",
         assets: [
-            src + "/views/**/*.html",
             src + "/bower_components/jquery/dist/jquery.min.js",
             src + "/fonts/**/*",
             src + "/images/**/*",

@@ -56,9 +56,13 @@ gulp.task('optimize', function () {
 gulp.task('copy', function () {
     log('Copying assets...');
 
-    return gulp
-        .src(config.assets, {base: config.src})
+    gulp.src(config.assets, {base: config.src})
         .pipe(gulp.dest(config.dist + '/'));
+
+    log('Copying htmls...');
+
+    gulp.src(config.html, {base: config.src})
+        .pipe(gulp.dest(config.dist + '/views/'));
 });
 
 /*--------------

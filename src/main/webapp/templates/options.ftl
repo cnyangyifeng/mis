@@ -15,7 +15,7 @@
                     <table class="ui very padded unstackable table">
                         <thead>
                         <tr>
-                            <th colspan="3">公开信息</th>
+                            <th colspan="3">基本信息</th>
                         </tr>
                         </thead>
                         <tbody>

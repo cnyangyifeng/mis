@@ -19,7 +19,7 @@
                         </div>
                         <div class="right item">
                             <div class="ui action input">
-                                <input class="search" type="text" placeholder="姓名、房间 / 床位、护理员">
+                                <input class="search" type="text" placeholder="姓名、床位、护理员">
                                 <div class="ui secondary primary button">搜索</div>
                             </div>
                         </div>
