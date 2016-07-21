@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cnmengma.mapper.UserMapper">
+
+    <select id="findAll" resultType="User">
+        SELECT
+        MIS_USER.MIS_USER_ID AS userId,
+        MIS_USER.MIS_USER_NAME AS userName,
+        MIS_USER.MIS_MOBILE AS mobile,
+        MIS_USER.MIS_PASSWORD AS password
+        FROM MIS_USER
+    </select>
+
+</mapper>

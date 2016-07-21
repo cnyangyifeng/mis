@@ -51,34 +51,22 @@
                                 </tr>
                                 </thead>
                                 <tbody>
+                                <#list users as user>
                                 <tr>
                                     <td>
                                         <div class="ui checkbox">
                                             <input type="checkbox">
-                                            <label>杨义锋</label>
+                                            <label>${user.userName}</label>
                                         </div>
                                     </td>
-                                    <td>135 **** 1017</td>
+                                    <td>${user.mobile}</td>
                                     <td>市场部</td>
                                     <td class="collapsing">2016-07-10 18:00</td>
                                     <td class="collapsing">
                                         <a href="user.html">查看</a>
                                     </td>
                                 </tr>
-                                <tr>
-                                    <td>
-                                        <div class="ui checkbox">
-                                            <input type="checkbox">
-                                            <label>李小英</label>
-                                        </div>
-                                    </td>
-                                    <td>135 **** 1017</td>
-                                    <td>未分组</td>
-                                    <td>2016-07-10 14:30</td>
-                                    <td class="collapsing">
-                                        <a href="user.html">查看</a>
-                                    </td>
-                                </tr>
+                                </#list>
                                 </tbody>
                                 <tfoot>
                                 <tr>

@@ -54,6 +54,18 @@
         <url-pattern>/</url-pattern>
     </servlet-mapping>
 
+    <!-- Druid Status Servlets -->
+
+    <servlet>
+        <servlet-name>DruidStatViewServlet</servlet-name>
+        <servlet-class>com.alibaba.druid.support.http.StatViewServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>DruidStatViewServlet</servlet-name>
+        <url-pattern>/druid/*</url-pattern>
+    </servlet-mapping>
+
     <!-- Session Configurations -->
 
     <session-config>
