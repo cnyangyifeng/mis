@@ -28,7 +28,6 @@ public class UsersController {
 
         List<User> users = userService.findAll();
         Collections.sort(users, new PinyinComparator());
-        logger.debug(users);
 
         ModelAndView mv = new ModelAndView();
         mv.setViewName("users");

@@ -6,11 +6,11 @@
  Fonts
 --------------------*/
 
-@fontName: 'Helvetica Neue';
+@fontName: "Helvetica Neue";
 @fontSmoothing: antialiased;
 
-@headerFont: @fontName, Arial, Helvetica, sans-serif;
-@pageFont: @fontName, Arial, Helvetica, sans-serif;
+@headerFont: -apple-system, @fontName, Arial, "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+@pageFont: -apple-system, @fontName, Arial, "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
 
 @importGoogleFonts: false;
 
