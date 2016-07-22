@@ -1,8 +1,6 @@
 package com.cnmengma.domain;
 
-import java.io.Serializable;
-
-public class User implements Serializable {
+public class Group {
 
     private long userId;
     private String userName;

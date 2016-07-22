@@ -92,7 +92,7 @@
                                     <a class="item">8</a>
                                     <a class="item">9</a>
                                     <a class="item">10</a>
-                                    <a class="item"><i class="angle right icon"></i> 下一页</a>
+                                    <a class="item">下一页 <i class="angle right icon"></i></a>
                                 </div>
                             </th>
                         </tr>

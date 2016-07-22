@@ -14,10 +14,10 @@
                     <div class="ui hidden divider"></div>
                     <div class="ui text actionbar menu">
                         <div class="item">
-                            <div class="ui primary button"><i class="add circle icon"></i> 添加一个新的用户</div>
+                            <div class="ui primary button"><i class="add circle icon"></i> 添加新用户</div>
                         </div>
                         <div class="item">
-                            <div class="ui icon button">删除</div>
+                            <div class="ui icon button"><i class="trash icon"></i></div>
                         </div>
                         <div class="right item">
                             <div class="ui action input">
@@ -83,7 +83,7 @@
                                             <a class="item">8</a>
                                             <a class="item">9</a>
                                             <a class="item">10</a>
-                                            <a class="item"><i class="angle right icon"></i> 下一页</a>
+                                            <a class="item">下一页 <i class="angle right icon"></i></a>
                                         </div>
                                     </th>
                                 </tr>

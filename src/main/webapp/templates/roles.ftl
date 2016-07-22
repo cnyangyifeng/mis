@@ -14,10 +14,10 @@
                     <div class="ui hidden divider"></div>
                     <div class="ui text actionbar menu">
                         <div class="item">
-                            <div class="ui primary button"><i class="add circle icon"></i> 创建一个新的角色</div>
+                            <div class="ui primary button"><i class="add circle icon"></i> 创建新角色</div>
                         </div>
                         <div class="item">
-                            <div class="ui icon button">删除</div>
+                            <div class="ui icon button"><i class="trash icon"></i></div>
                         </div>
                     </div>
                     <table class="ui very padded unstackable table">
